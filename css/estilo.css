@@ -1,0 +1,242 @@
+*{
+    margin:1px ;
+    padding:1px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+	background-color: #8EA637 ; 
+ }
+/*ESTILOS*/
+
+h1, h2{
+    padding-top: 0.5em;
+    font-size:2em;
+     color: whitesmoke;
+  }
+
+    h2 img {
+        width: 100%;
+    }
+
+h3{
+    color: #876a52;
+    font-family: 'Poppins', sans-serif;
+    font-size:1em
+}
+
+h4{ 
+    color: #CAD959; 
+    font-family: 'Poppins', sans-serif;
+    font-size:1em
+ }
+
+}
+ p{
+    color:#252617 ;
+    font-weight: 400; 
+    font-size:1em ;
+    line-height: 18px;
+    word-spacing: 2px
+ }
+ 
+
+
+header  ul li{
+ text-align: right;
+
+}
+main{
+    display: flex;
+  }
+
+
+/*NAV*/
+ nav ul{
+        background-color:#3D5914 ;
+        display: flex;
+        justify-content: space-between; 
+        padding: 1.5em;
+        font-weight: 800
+    }    
+    nav ul li{
+             display: inline-block;
+             position: relative;
+             font-size: 1em;
+             text-align: center;
+             width: 20%;
+            }
+    nav ul li a{
+             text-decoration: none; 
+             color: #CAD959;
+    }
+                a:hover{
+                    color: whitesmoke;
+    }
+
+
+
+ .textTransform{
+ 	text-transform: uppercase;
+ }	
+
+.textCenter{
+	text-align: center;
+ } 
+
+.textLeft{
+	text-align: left;
+ }
+
+
+#sectionCentral{
+    display: flex;
+
+}
+ #novedades{
+   display: flex;
+   flex-basis: 40%;
+   flex-wrap: wrap;
+    
+ } 
+
+#sectionCentral1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3px;
+    padding: 3px;
+}
+
+#entidades{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    background-color: #CAD959;
+         
+ }
+ /*IMAGENES*/
+
+#imgNovedades {
+    width:20%; /*120px*/
+}
+#fotos{
+     width: 400px;
+ }
+
+ #fotosPenia{
+    width: 800px;
+    padding: 3px;
+    
+}
+.imgQuienes{
+    width: 1400px;
+}
+
+/*ASIDE*/
+aside {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    background-color: #3D5914;
+      
+ }
+
+/*FOOTER*/
+
+footer{
+    display: flex;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    background-color: #3D5914; 
+    clear: left;
+    height: auto;
+}
+
+footer div{
+    text-align: center;
+    flex-basis: 30%;
+}
+
+form{
+    background-color: ;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 200;
+    font-size:12px ;
+    width: 100%;
+}
+
+    tr{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400; 
+        font-size:0.6em;  
+    }
+
+ul{
+    list-style: none;
+}
+
+/*GRID HOME PAGE*/
+
+.grid{
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns:35vw 40vw 20vw;
+    grid-template-rows:30vh 40vh 40vh ;
+    grid-template-areas:"div1 div1 div1" "novedades opiniones aside" " entidades entidades aside";
+    grid-gap: 5px 5px;
+    align-content: center;
+    justify-content: center;}
+
+
+#div1{
+    grid-row: 1/2;
+    grid-column: 1/4;
+    background-color:#CAD959;
+    padding: 5px;
+    text-align: center;
+    grid-area: div1;
+    
+  
+ }
+.novedades{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    background-color: #CAD959;
+    padding: 5px;
+    text-align: center;
+    grid-area: novedades;
+    
+
+
+}
+.entidades{
+    grid-row:3/4;
+    grid-column: 1/3;
+    background-color: #CAD959;
+    padding: 5px;
+    grid-area: entidades;
+    
+
+}
+.aside{
+    grid-row: 2/4;
+    grid-column: 3/4;
+    background-color: #3D5914;
+    padding: 5px;
+    grid-area: aside;
+   
+
+}
+.opiniones{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    background-color: #CAD959;
+    padding: 5px;
+    grid-area: opiniones;
+    
+   
+}
+
+
+    
