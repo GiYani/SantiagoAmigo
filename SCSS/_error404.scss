@@ -1,0 +1,34 @@
+
+
+
+
+    .body_error{
+        background-color: #608c20;
+   
+    }
+
+    .principal{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    }
+
+    .card {
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    max-width: 364px;
+    padding: 24px;
+    background: white;
+    border-radius: 8px;
+
+    
+    }
