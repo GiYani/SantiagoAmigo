@@ -4,14 +4,37 @@
 	font-family: 'Roboto', sans-serif;
 }
 
+$gray-600: #6c757d;
+
+
 .whiteSmoke{
 	background-color: whitesmoke;
 }
 
 #section_redes{
-	background-color: #608c20;
+	background-color:  #608c20;
 
 }
-.input-op{
-	background-color: rgba(255, 255, 255, 0.7);
+#section-aside{
+	background-color: #74a62b; 
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+
+
+}
+section aside a{
+
+		text-decoration: none;
+		color: white;
+	}
+
+
+.section-aside__a--decoration{
+		text-decoration: none;
+		color: white;
+	}
+
+.text-QS{
+	color: $gray-600;
 }

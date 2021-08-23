@@ -12,8 +12,22 @@
 #section_redes {
   background-color: #608c20; }
 
-.input-op {
-  background-color: rgba(255, 255, 255, 0.7); }
+#section-aside {
+  background-color: #74a62b;
+  display: flex;
+  justify-content: center;
+  text-decoration: none; }
+
+section aside a {
+  text-decoration: none;
+  color: white; }
+
+.section-aside__a--decoration {
+  text-decoration: none;
+  color: white; }
+
+.text-QS {
+  color: #6c757d; }
 
 footer {
   background-color: #3D5914; }
@@ -26,7 +40,7 @@ header {
   align-items: right; }
 
 .body_error {
-  background-color: #608c20; }
+  background-color: #3D5914; }
 
 .principal {
   position: relative;
@@ -43,10 +57,10 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 364px;
-  padding: 24px;
+  max-width: 20rem;
+  padding: 10px;
   background: white;
-  border-radius: 8px; }
+  border-radius: 4px; }
 
 /*!
  * Bootstrap v5.1.0 (https://getbootstrap.com/)
