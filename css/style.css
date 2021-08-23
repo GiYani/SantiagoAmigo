@@ -57,10 +57,8 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: 'Klee One', cursive;
   max-width: 20rem;
   padding: 10px;
-  background: white;
   border-radius: 4px; }
 
 /*!
