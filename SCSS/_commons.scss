@@ -5,6 +5,7 @@
 }
 
 $gray-600: #6c757d;
+$input-bg: rgba(241, 245, 240, 0.7);
 
 
 .whiteSmoke{
@@ -15,6 +16,12 @@ $gray-600: #6c757d;
 	background-color:  #608c20;
 
 }
+
+.sectionPast{
+	background-color: #c7c9c5;
+}
+
+
 #section-aside{
 	background-color: #74a62b; 
 	display: flex;
@@ -34,5 +41,9 @@ section aside a{
 	color: $gray-600;
 }
  .input-op{
- 	background-color:rgba(254, 255, 252, 0.3);
+ 	background-color:$input-bg;
  }
+
+
+
+

@@ -1,11 +1,21 @@
 @media only screen and (max-width: 768px) {
-	header{
+
 		
 
+.imgDiv {
+  width: 40%;
+   transition: height 2s, width 1s;       
 
+}
+ 
+.imgDiv:hover {
+   width: 100%;
+}
 
+.carouselUstedes{
+width: 170%;
 
-	}
+}
 
 
 }	 
