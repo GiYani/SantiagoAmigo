@@ -3,7 +3,7 @@
 
    
 
-   /* .principal{
+    .principal{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -13,7 +13,7 @@
     width: 100vw;
     }
 
-   .card {
+   /*.card {
 
     position: relative;
     display: flex;
@@ -23,16 +23,10 @@
 
     }*/
 
-    .modal-container{
+    /*.modal-container{
         position: fixed;
-        width: 100vw;
-        height: auto;
         display: flex;
-      align-items: center;
+        align-items: center;
         justify-content: center;
     }
-    
-
-    .modal-container:after{
-        
-    }
+*/
