@@ -1,10 +1,27 @@
 @media only screen and (max-width: 768px) {
 
 		
-.carouselUstedes{
-width: 170%;
+	.carouselUstedes{
+		width: 200%;
+	
+
+	}
+	.widthMedia{
+		width: 100%;
+	}
+
 
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1240px){
+	.widthMedia{
+		width: 100%;
+	}
+	
+	.carouselUstedes{
+		width: 170%;
 
-}	 
+	}
+	
+
+}
